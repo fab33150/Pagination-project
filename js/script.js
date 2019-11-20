@@ -64,7 +64,7 @@ const appendPageLinks = (list) => {
 
          for (let i = 0; i < activeLink.length; i++) {
             if (activeLink[i].innerHTML == e.target.innerHTML) {
-               activelink[i].className = 'active'
+               activeLink[i].className = 'active'
              } else {
                activeLink[i].className = ''
              }
